@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Change ici les couleurs et la police : elles s'appliquent à toute la page */
+@theme {
+  --color-fond: #f8fafc;
+  --color-texte: #0f172a;
+  --color-discret: #64748b;
+  --color-bordure: #e2e8f0;
+  --color-accent: #2563eb;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  @apply bg-fond text-texte font-sans antialiased;
+}
